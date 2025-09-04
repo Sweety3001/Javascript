@@ -31,6 +31,7 @@ console.log(id === anotherId );
 
 /* Reference(Non- Primitive) 
 Array, Objects, Functions
+return type of all non-primitive is object function
 */
 
 
@@ -38,4 +39,8 @@ const heros = ["sk", "nj" , "dg"];
 let myObj = {
     name: "sweett",
     ag: 22,
+}
+
+const myfunction = function(){
+    console.log("Hello World");
 }
