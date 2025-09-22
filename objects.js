@@ -76,3 +76,17 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLogged'));// to check if property is available or not
+
+
+
+//******************************************// DESTRUCTURING
+
+const course={
+    courseN: "Javascript",
+    price: "899",
+    courseInstructor: "Hitesh"
+}
+const {courseInstructor: cI}= course
+// console.log(courseInstructor);
+console.log(cI);
+
