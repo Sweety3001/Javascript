@@ -1,0 +1,11 @@
+javascript execution context
+
+run in 2 phase
+
+1- global execution context(this variable k andar)
+2- Functional execcution context
+3- Eval execcution context
+
+
+1st phase - Memory creation phase
+2nd phase- Execcution phase
